@@ -1,0 +1,46 @@
+.passport
+{
+    padding: 65px 0 105px 0;
+    position: relative;
+    .passport_left_block
+    {
+        margin-left: 100px;
+    }
+    .passport_blank
+    {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 8px;
+    }
+    .pasport_req
+    {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 34px;
+        color: #0037A1;
+    }
+    .passport_block
+    {
+        
+        .passport_item_text
+        {
+            margin-left: 16px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #222222;
+            margin-bottom: 12px;
+
+        }
+    }
+    .passport_image
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+        bottom: 0;
+        transform: translate(-30%,30%);
+        
+    }
+}

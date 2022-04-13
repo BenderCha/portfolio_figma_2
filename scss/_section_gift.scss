@@ -1,0 +1,83 @@
+.gift
+{
+    padding: 170px 0;
+    position: relative;
+    .section_title
+    {
+        span 
+        {
+            color: red;
+        }
+    }
+    .gift_text
+    {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        color: #222222;
+        opacity: 0.7;
+        margin-bottom: 45px;
+    }
+    .card_gift
+    {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 15px;
+    }
+    .gift_image
+    {
+        position: relative;
+       
+        &::after
+        {
+           
+            content: url("../images/gift_rs.svg");
+            display: block;
+            position: absolute;
+            width: 23.5px;
+            height: 16.5px;
+            top: 5px;
+            bottom: 0;
+            left: 7px;
+        }
+    }
+    .gift_text_card
+    {
+        margin-left: 15px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0037A1;
+    }
+    .cart_btn
+    {
+        padding: 23px 45px;
+        background: #E93123;
+        box-shadow: 0px 0px 10px rgba(233, 49, 35, 0.4);
+        border-radius: 4px;
+        width: 270px;
+        height: 64px;
+        margin-top: 45px;
+        a
+        {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            text-decoration: none;
+            color: #FFFFFF;
+            
+        }
+        
+    }
+    .cart_right
+    {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transform: translate(-28%, 10%);
+        z-index: -1;
+
+    }
+}

@@ -1,0 +1,110 @@
+.footer
+{
+    background: #2A2F34;
+    color: #fff;
+    padding: 70px 0 0 0;
+    .footer_logo_text
+    {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        margin-top: 20px;
+    }
+    .footer_call
+    {
+        margin-bottom: 37px;
+        .call_number
+        {
+            margin-left: 12px;
+           
+            a
+            {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+        }
+        .call_number_text
+        {
+            font-size: 13px;
+            line-height: 15px;
+            color: #F8F8F8;
+            margin-left: 25px;
+            
+        }
+    }
+    .footer_adress
+    {
+       
+        .footer_adress_reg
+        {
+            margin-left: 14px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+
+        }
+        .footer_adress_home
+        {
+            margin-left: 25px;
+            font-size: 13px;
+            line-height: 15px;
+            color: #F8F8F8;
+            margin-bottom: 37px;
+        }
+        .footer_work_time
+        {
+            margin-left: 10px;
+            font-size: 13px;
+            line-height: 15px;
+            color: #F8F8F8;
+            margin-bottom: 37px;
+        }
+    }
+    .footer_yandex
+    {
+        margin-bottom: 40px;
+        .footer_yandex_img
+        {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+        .footer_yandex_text
+        {
+            font-size: 13px;
+            line-height: 15px;
+            color: #F8F8F8;
+        }
+      
+        
+    }
+    .footer_social
+    {
+        .footer_social_network
+        {
+            margin-left: 6px;
+        }
+    }
+    .footer_reserved
+    {
+        padding: 30px 0;
+        background: #23282D;
+        .reserved_light,
+        .reserved_right
+        {
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 22px;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        
+
+    }
+}

@@ -1,0 +1,68 @@
+.faq
+{
+    background-color: #F8F8F8;
+    padding: 120px 0;
+    .faq_block
+    {
+        .request_buttton_faq
+        {
+            width: 270px;
+            height: 64px;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            margin-top: 50px;
+            color: #FFFFFF;
+            padding: 23px 45px;
+            background: #E93123;
+            box-shadow: 0px 0px 10px rgba(233, 49, 35, 0.4);
+            border-radius: 4px;
+
+            &:hover
+            {
+                color: #E93123;
+                cursor: pointer;
+                background: #FFFFFF;
+            }
+        }
+
+    }
+    .accordion-item
+    {
+        margin-bottom: 10px;
+        background-color: #fff;
+        border: none;
+        border-radius: 4px;
+        justify-content: space-between;
+        align-items: center;
+
+        .accordion-button
+        {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            
+            &:not(.collapsed),
+            &:focus
+            {
+                color: inherit;
+                background-color: #fff;
+                box-shadow: none;
+            
+            }
+            &::after
+            {
+                background-image: url('../images/chevron_down.svg');
+                width: 14px;
+                height: 7px;
+                background-size: contain;
+                
+            }
+        }
+        .accordion-body
+        {
+            background-color: #eee;
+        }
+    }
+}
