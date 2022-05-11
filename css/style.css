@@ -18,7 +18,10 @@ body {
   font-size: 16px;
   color: #222;
 }
-
+.wrapper
+{
+  overflow: hidden;
+}
 .section_title {
   font-weight: 800;
   font-size: 36px;
